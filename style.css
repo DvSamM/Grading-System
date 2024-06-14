@@ -1,0 +1,81 @@
+body{
+    background-image: url("image/book");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+nav h1{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+.grade{
+        background-color: rgba(255, 255, 255, 0.356);
+        /* font-family: fantasy; */
+        width: 500px;
+        padding: 50px;
+        text-align: center;
+        margin-left: auto;
+        height: auto;
+        margin-right:auto ;
+        border-radius: 10px;
+        margin-top: 50px;
+}
+.grade>h2{
+    margin-bottom: 40px;
+}
+input{
+    width: 250px;
+}
+input::placeholder{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.btn:hover{
+   background-color: white !important;
+   color: black !important;
+}
+.btn{
+    width: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.356);
+    color: black;
+    border: none;
+}
+.inpResult{
+        padding: 20px;
+        background-color: rgba(167, 163, 163, 0.397);
+        width: 200px;
+        border-radius: 5px;
+        margin: 40px auto 0px auto;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:576px){
+    body{
+        overflow-x: hidden;
+    }
+    .grade{
+        width: auto;
+        text-align: center;
+        padding: 20px 0px;
+        margin: 80px 10px;
+        height: auto!important;
+    }
+    .grade>h2{
+        margin-bottom: 40px;
+    }
+.inpResult{
+    margin-bottom: 90PX;
+}
+    nav h1{
+        text-align: center;
+        font-family: fantasy;
+        font-size: 40px;
+    }
+}
